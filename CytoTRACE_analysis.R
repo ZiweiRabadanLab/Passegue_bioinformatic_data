@@ -1,4 +1,4 @@
-
+library(CytoTRACE)
 # EA.combined <- readRDS('~/Passegue_bioinformatic_data/EA.combined.rds')
 datasets <- as.data.frame(as.matrix(EA.combined@assays$RNA@counts))
 batches_EA <- EA.combined$orig.ident
